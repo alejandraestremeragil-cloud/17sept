@@ -12,3 +12,6 @@ def insertion_sort(lista):
         lunes +=1
 
     return lista
+
+resultado = insertion_sort([3,7,5,9,4])
+print(resultado)
