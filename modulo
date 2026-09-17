@@ -1,0 +1,13 @@
+def modulo(a, b):
+    division = a // b
+    producto = division * b
+    resto = a - producto
+
+    return resto
+
+a = int(input("Introduce el primer número: "))
+b = int(input("Introduce el segundo número: "))
+
+resultado = modulo(a, b)
+
+print("El resto es:", resultado)
