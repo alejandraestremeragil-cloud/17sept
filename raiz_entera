@@ -1,0 +1,8 @@
+def raiz_entera(n):
+    x = 0
+    while (x + 1) * (x + 1) <= n:
+        x = x + 1
+    print("La raíz cuadrada entera es:", x)
+
+numero = int(input("Introduce un número: "))
+raiz_entera(numero)
