@@ -1,4 +1,14 @@
 def insertion_sort(lista):
     lunes = 1
     while lunes < len(lista):
-        
+        martes = lista[lunes]
+        miercoles = lunes - 1
+
+        while miercoles >= 0 and lista[miercoles] > martes:
+         lista [miercoles +1] = lista[miercoles]
+         miercoles -=1
+
+        lista [miercoles +1] = martes
+        lunes +=1
+
+    return lista
