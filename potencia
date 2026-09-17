@@ -1,0 +1,14 @@
+def potencia(x, y):
+    resultado = 1
+    contador = 0
+
+    while contador < y:
+        resultado = resultado * x
+        contador = contador + 1
+    return resultado
+
+x = int(input("Introduce la base: "))
+y = int(input("Introduce el exponente: "))
+
+resultado = potencia(x, y)
+print("El resultado es:", resultado)
